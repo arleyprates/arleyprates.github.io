@@ -10,8 +10,8 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+#theme                  : "minimal-mistakes-jekyll"
+#remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -111,7 +111,7 @@ author:
   avatar           : "/assets/images/arley.png"
   bio              : "I am an amazing person."
   location         : "Salvador, Bahia, Brazil"
-  email            :
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -233,6 +233,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-archives
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -260,17 +261,17 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+#  https://github.com/jekyll/jekyll-archives
+  jekyll-archives:
+    enabled:
+      - categories
+      - tags
+    layouts:
+      category: archive-taxonomy
+      tag: archive-taxonomy
+    permalinks:
+      category: /categories/:name/
+      tag: /tags/:name/
 
 
 # HTML Compression
