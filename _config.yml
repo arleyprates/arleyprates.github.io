@@ -20,14 +20,14 @@ title                    : "Arley Prates"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Arley Prates"
-description              : "An amazing website."
+description              : "Developer"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub arleyprates/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/arley.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-  breadcrumbs            : true # true, false (default)
+masthead_title           : "Arley Prates"
+breadcrumbs              : #true
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -109,13 +109,16 @@ analytics:
 author:
   name             : "Arley Prates"
   avatar           : "/assets/images/arley.png"
-  bio              : "I am an amazing person."
+  bio              : "Apaixonado por tecnologia, espírito curioso e coração solidário. Graduado em Sistemas de Informação pela Universidade Federal da Bahia."
   location         : "Salvador, Bahia, Brazil"
   email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:arleyprates@gmail.com
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/arleyprates"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -125,9 +128,6 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://facebook.com/arleyprates"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/arleyprates"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/arleyprates"
